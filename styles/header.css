@@ -1,9 +1,12 @@
+.header {
+  background-color: white;
+}
+
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 72px;
-  background-color: white;
 }
 
 .navbar-list {
