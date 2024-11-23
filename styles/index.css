@@ -27,6 +27,10 @@
   padding-right: 10px;
 }
 
+body {
+  background-color: black;
+}
+
 a {
   text-decoration: none;
 }
