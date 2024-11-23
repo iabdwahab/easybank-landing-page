@@ -35,7 +35,7 @@
   color: white;
 }
 
-.header__hamburger-icon {
+.header__menu-btn {
   background-color: transparent;
   border: none;
   outline: none;
@@ -48,7 +48,7 @@
   }
 
   .navbar-list {
-    display: grid;
+    display: none;
     grid-template-columns: 1fr;
     justify-content: center;
     gap: 0;
@@ -66,6 +66,10 @@
     -o-border-radius: 4px;
   }
 
+  .navbar-list--showed {
+    display: grid;
+  }
+
   .navbar-list__link {
     background-color: white;
     color: var(--dark-blue);
@@ -77,7 +81,7 @@
     display: none;
   }
 
-  .header__hamburger-icon {
+  .header__menu-btn {
     display: block;
   }
 }
