@@ -6,6 +6,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   min-height: calc(100vh - var(--header-height));
+  gap: 10px;
+  overflow: hidden;
 }
 
 .main__left-side {
@@ -25,12 +27,17 @@
   max-width: 80%;
 }
 
+.main__request-link {
+  width: fit-content;
+}
+
 .main__right-side {
   display: grid;
   align-content: center;
   justify-content: center;
   z-index: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .main__hero-bg-img {
@@ -41,4 +48,24 @@
 
 .main__hero-img {
   max-height: 500px;
+}
+
+@media (max-width: 768px) {
+  .main__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .main__left-side {
+    order: 1;
+  }
+
+  .main__request-link {
+    width: 100%;
+  }
+
+  .main__description-text {
+    max-width: 100%;
+  }
 }
