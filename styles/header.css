@@ -27,22 +27,12 @@
   color: var(--dark-blue);
 }
 
-.header__link {
-  background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
-  padding: 10px 20px;
-  border-radius: 999px;
-  -webkit-border-radius: 999px;
-  -moz-border-radius: 999px;
-  -ms-border-radius: 999px;
-  -o-border-radius: 999px;
-  color: white;
-}
-
 .header__menu-btn {
   background-color: transparent;
   border: none;
   outline: none;
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -80,7 +70,7 @@
     padding: 10px;
   }
 
-  .header__link {
+  .header__request-link {
     display: none;
   }
 
