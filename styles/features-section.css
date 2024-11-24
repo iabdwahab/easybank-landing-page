@@ -1,0 +1,38 @@
+.features-section {
+  background-color: var(--light-grayish-blue);
+}
+
+.features__title-text {
+  font-size: 35px;
+}
+
+.features__description-text {
+  max-width: 60%;
+  margin-top: 20px;
+}
+
+.features-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature__title-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feature__description-text {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .features-section {
+    text-align: center;
+  }
+
+  .features__description-text {
+    max-width: 100%;
+  }
+}

@@ -1,5 +1,6 @@
 @import url('header.css');
 @import url('main-section.css');
+@import url('features-section.css');
 
 :root {
   --dark-blue: hsl(233, 26%, 24%);
@@ -49,10 +50,17 @@ img {
   color: white;
 }
 
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .title-text {
+  font-weight: normal;
   color: var(--dark-blue);
 }
 
 .description-text {
   color: var(--grayish-blue);
+  line-height: 1.3;
 }
