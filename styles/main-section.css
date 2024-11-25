@@ -1,5 +1,6 @@
 .main {
   background-color: var(--very-light-gray);
+  overflow: hidden;
 }
 
 .main__container {
@@ -36,13 +37,17 @@
   justify-content: center;
   z-index: 0;
   position: relative;
-  overflow: hidden;
 }
 
 .main__hero-bg-img {
   position: absolute;
   z-index: -1;
-  top: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
 }
 
 .main__hero-img {
