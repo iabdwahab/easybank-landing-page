@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--dark-blue);
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.footer__nav-list {
+  display: grid;
+  gap: 10px;
+}
+
+.footer__nav-link {
+  color: var(--light-grayish-blue);
+}
+
+.footer__copyright-container {
+  display: grid;
+  gap: 10px;
+  color: var(--grayish-blue);
+}
+
+.footer__request-link {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}

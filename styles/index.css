@@ -2,6 +2,7 @@
 @import url('main-section.css');
 @import url('features-section.css');
 @import url('articles-section.css');
+@import url('footer.css');
 
 :root {
   --dark-blue: hsl(233, 26%, 24%);
@@ -38,6 +39,10 @@ a {
 
 img {
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 .request-link {
